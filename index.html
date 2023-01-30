@@ -14,11 +14,22 @@
     tailwind.config={
         theme:{
             extend:{
+                width: {
+                 'Available': '-webkit-fill-available',
+                 'fit':'fit-content'
+
+                  },
+                 
                 backgroundImage:{
                     'hero-Image': "url('https://edge.rode.com/images/page/1/modules/7187/vmgoii-homepage-banner-3.png')",
                     'NT_USB': "url('https://edge.rode.com/images/page/1/modules/6856/ntusbplus-homepage-banner-1920x700.jpg')",
                     'RODE_CASTER':" url('https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg');",
-                    'STREAMER': "url('https://edge.rode.com/images/page/1/modules/6816/RODEX_Launch-Website-Banners_1920x700_6.jpg');"
+                    'STREAMER': "url('https://edge.rode.com/images/page/1/modules/6816/RODEX_Launch-Website-Banners_1920x700_6.jpg');",
+                    'NTH_100': "url('https://edge.rode.com/images/page/1/modules/5873/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg');",
+                    'MICROPHONE': "url('https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5357%2Fmicrophones-module-1200x300-rgb.png')",
+                    'INTERFACE':"url('https://rode.com/assets/images%2Fpage%2F1%2Fmodules%2F5359%2Finterfaces-module-2022-1200x300-rgb.jpg')",
+                     'SOFTWARE':'url(./photo/images_page_1_modules_5361_software-module-2021-1200x300-rgb.png);', // this is the way to use local image as background image
+                    'ACCESSORIES':"url('https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5370%2Faccessories-module-2021-1200x300-rgb.png')"
 
                 },
                 Image:{
@@ -35,6 +46,7 @@
                     'lg': '1024px',
                     'xl': '1280px',
                     '2xl': '1536px',
+                    'l-mobile':'425px'
                     }
                  }
              }
@@ -206,7 +218,7 @@
     </div>
    </section>
    <!-- RODECASTER pro -->
-   <section class="md:bg-RODE_CASTER bg-cover bg-center bg-black ">
+    <section class="md:bg-RODE_CASTER bg-cover bg-center bg-black ">
     <!-- hero image to show at large screen -->
     <div class="md:hidden">
         <img src="	https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-800x700-rgb.jpg" alt="" class="align-middle">
@@ -233,5 +245,223 @@
     </div>
 </div>
     </section>
+    <!-- NTH_100 -->
+    <section class="md:bg-NTH_100  bg-cover bg-center">
+        <div class="md:hidden">
+            <img src="./photo/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb-800x700-6488d79.png">
+        </div>
+        <div class="w-[80%] m-auto md:flex text-center">
+            <div class="md:w-1/2 md:my-40 mt-10 lg:mx-3 ">
+                <div>
+                    <img src="https://edge.rode.com/images/page/1/modules/5873/NTH-100_PL_P_RGB_01.svg" alt="">
+                </div>
+                <h3 class="text-2xl py-4">Your Search For The Perfect Headphones Is Over</h3>
+                <p class="text-[#00000080]" >Experience sound like never before with the NTH-100s. Exceptional sonic performance, superior comfort and iconic looks that inspires creativity.</p>
+                <div>
+                    <a href="https://rode.com/en/microphones/on-camera/videomicro-ii" class="text-btn py-2 px-4   rounded-full inline-block ">
+                        LEARN MORE
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <a href="https://rode.com/en/microphones/on-camera/videomicro-ii?buyitnow=true" class="bg-btn py-1 px-4  rounded-full inline-block text-white mdmt-0 mt-5 hover:bg-white hover:text-black ">
+                        BUY MORE
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest From The RØDE Blog< -->
+    <div class="flex justify-center py-10">
+        <a href="" class="text-center w-[80%] m-auto text-btn text-3xl font-bold py-7 ">Latest From The RØDE Blog</a>
+    </div>
+    <!-- cards -->
+    <section class="bg-[#f8f9fa] bg-cover bg-center ">
+        <div class="w-[70%] m-auto md:flex text-center ">
+            <div class="grid md:grid-rows-2 md:grid-flow-col py-20 gap-10">
+                <div >
+                    <div class="bg-white mt-5">
+                        <h2 class="text-4xl py-2 text-center">RØDECaster Pro II Firmware 1.1.1 Introduces Advanced Sub-mixing and More</h2>
+                        <div>
+                        <img src="https://edge.rode.com/images/page/1/modules/7395/RCP%201.1%201200x675%2001-FA-580x509-49cd421.jpg" alt="" class="w-full">
+                        </div>
+                        <p class="text-xl w-[95%] m-auto font-light  my-8">The latest major firmware update for the RØDECaster Pro II introduces advanced sub-mixing and other enhancements for a flexible workflow.</p>
+                        <a href="https://rode.com/en/microphones/on-camera/videomicro-ii?buyitnow=true" class="bg-btn py-1 px-4  rounded-full inline-block text-white mdmt-0 mt-5 hover:bg-white hover:text-black mb-10 ">
+                            LEARN MORE
+                        </a>
+                    </div>
+                </div>
+                <div >
+                    <div class="bg-white mt-5">
+                        <h2 class="text-4xl py-2 text-center">How to Use VideoMicro II with an iPhone or Android Smartphone</h2>
+                        <div>
+                        <img src="./photo/rode-videomicro-II-girl-vlogging-mona-vale-9-2022-580x509-rgb-6090x5344-ad52c48.jpg" alt="" class="w-full">
+                        </div>
+                        <p class="text-xl w-[95%] m-auto font-light  my-8">In this article we take a look at how to mount and connect your VideoMicro II to your smartphone.</p>
+                        <a href="https://rode.com/en/microphones/on-camera/videomicro-ii?buyitnow=true" class="bg-btn py-1 px-4  rounded-full inline-block text-white mdmt-0 mt-5 hover:bg-white hover:text-black mb-10 ">
+                            LEARN MORE
+                        </a>
+                    </div>
+                </div>
+                <div >
+                    <div class="bg-white mt-5">
+                        <h2 class="text-4xl py-2 text-center">Introducing New Wireless GO II Firmware: Camera Presets, Nested Recordings and More</h2>
+                        <div>
+                        <img src="./photo/rode-wireless-go-II-insitu-girl-working-by-window-desk-jan-2021-580x509-54af56a.jpg" alt="" class="w-full">
+                        </div>
+                        <p class="text-xl w-[95%] m-auto font-light  my-8">Here’s everything you need to know about the new Wireless GO II and RØDE Central updates</p>
+                        <a href="https://rode.com/en/microphones/on-camera/videomicro-ii?buyitnow=true" class="bg-btn py-1 px-4  rounded-full inline-block text-white mdmt-0 mt-5 hover:bg-white hover:text-black mb-10 ">
+                            LEARN MORE
+                        </a>
+                    </div>
+                </div>
+                <div >
+                    <div class="bg-white mt-5">
+                        <h2 class="text-4xl py-2 text-center">Introducing the VideoMicro II Ultra-compact On-camera Microphone</h2>
+                        <div>
+                        <img src="./photo/rode-wireless-go-II-insitu-girl-working-by-window-desk-jan-2021-580x509-54af56a.jpg" alt="" class="w-full">
+                        </div>
+                        <p class="text-xl w-[95%] m-auto font-light  my-8">The VideoMicro II ultra-compact microphone builds on the iconic original with next-generation features for enhanced performance.</p>
+                        <a href="https://rode.com/en/microphones/on-camera/videomicro-ii?buyitnow=true" class="bg-btn py-1 px-4  rounded-full inline-block text-white mdmt-0 mt-5 hover:bg-white hover:text-black mb-10 ">
+                            LEARN MORE
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Explore The RØDE Range -->
+    <div>
+        <h2 class="text-[#767676] mt-10  text-center text-2xl font-semibold py-5">Explore The RØDE Range</h2>
+    </div>
+    <!-- other services link -->
+    <section class="pb-5 bolck">
+        <div class="conatainer w-[80%] m-auto">
+           <a href="" class="mb-10 mt-10 block">
+            <div class="bg-MICROPHONE bg-cover bg-center block">
+                <img src="	https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5364%2Fmicrophones-text.svg" class="py-20 " alt="">
+            </div>
+           </a>
+           <a href="" class="mb-10 block">
+            <div class="bg-INTERFACE bg-cover bg-center block">
+                <img src="https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5366%2Finterfaces-text.svg" class="py-20 " alt="">
+            </div>
+           </a>
+           <a href="" class="mb-10 block">
+            <div class="bg-SOFTWARE bg-cover bg-center block">
+                <img src="https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5365%2Fsoftware-text.svg" class="py-20 " alt="">
+            </div>
+           </a>
+           <a href="" class="mb-10 block">
+            <div class="bg-ACCESSORIES bg-cover bg-center block">
+                <img src="https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5368%2Faccessories-text.svg" class="py-20 " alt="">
+
+            </div>
+           </a>
+        </div>
+    </section>
+    <hr class="my-10  bg-[#484848] ">
+    <footer>
+    <div class="flex items-center justify-center">
+        <div class=" w-full">
+            <div class="flex flex-col items-center justify-around md:flex-row ">
+                <div class="items-center lg:contents hidden m-1 justify-items-start w-60"> <img class="flex m-1"
+                        src="	https://cdn.rode.com/website/images/logo/RODE_logo_142x85_desktop_light_mode.svg" />
+                </div>
+                <div class="items-center m-1 justify-items-start w-Available md:w-fit px-6">
+                    <h1 class="flex  md:my-4 md:text-3xl  text-xl text-black font-medium border-t-[1px] md:border-t-0 border-b-[1px] md:border-b-0 bord py-4 mt-10 md:mt-o border-[#484848]"> Product <i class="fa-regular fa-plus m-auto mr-0 h-full items-end md:hidden"></i> </h1>
+                    
+                    <a href="#" class="flex hover:text-gray-500 hidden md:flex  my-4 text-black ">Features</a> 
+                    <a href="#" class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Integrations</a>
+                    <a href="#" class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Shopify Integrations</a> 
+                    <a href="#" class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Pricing</a>
+                    <a href="#" class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Chrome Extensions</a>
+                </div>
+                <div class="items-center m-1 justify-start w-Available md:w-fit px-6">
+                    <h1 class="flex  md:my-4 md:text-3xl text-xl text-black font-medium py-2 border-b-[1px] md:border-b-[0px] pb-3 border-[#484848]"> Company <i class="fa-regular fa-plus m-auto mr-0 h-full items-end md:hidden"></i>  </h1> <a href="#"
+                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Terms</a> <a href="#"
+                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Customers</a> <a href="#"
+                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Blog</a> <a href="#"
+                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Terms of Services</a> <a href="#"
+                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Privacy Policy</a>
+                </div>
+                <div class="items-center m-1 w-Available md:w-fit px-6">
+                    <h1 class="flex  md:my-4 md:text-3xl text-xl text-black font-medium topshadow border-b-[1px] md:border-b-0 pb-3 pt-1 border-[#484848]"> Support <i class="fa-regular fa-plus m-auto mr-0 h-full items-end md:hidden"></i> </h1> <a href="#"
+                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Community</a> <a href="#"
+                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Support Customers</a> <a href="#"
+                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Documentations</a> <a href="#"
+                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Service Providers</a> <a href="#"
+                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Email Contact</a>
+                </div>
+                <div class="items-end m-1 w-Available w-[22%] md:-mt-16 text-right m-auto hidden lg:block">
+                    <h1 class="flex flex-col my-4 md:text-3xl text-xl text-black text-right  font-medium"> Subscribe to our latest news and offers </h1> 
+                    <a href="https://rode.com/en/microphones/on-camera/videomicro-ii" class="text-white py-2 px-4 bg-btn  rounded-full inline-block ">
+                        LEARN MORE
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+               
+            </div>
+            <div class="transition-all delay-150 lg:hidden m-1 w-full text-center  m-auto block">
+                <h1 class="flex flex-col my-4 text-3xl text-black font-medium"> Subscribe to our latest news and offers </h1> 
+                <a href="https://rode.com/en/microphones/on-camera/videomicro-ii" class="text-white py-2 px-4 bg-btn  rounded-full inline-block ">
+                    LEARN MORE
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </div> 
+    </footer>
+    <div class="w-[95%] my-10 m-auto">
+        <hr class="">
+    </div>
+    <div class=" flex flex-col items-center justify-around">
+        <div class="items-center lg:hidden pt-5 lg:contents  m-1 justify-items-start w-60"> <img class="flex m-1"
+            src="	https://cdn.rode.com/website/images/logo/RODE_logo_142x85_desktop_light_mode.svg" />
+        </div>
+        <div class="flex flex-col lg:flex-row w-[95%] p-3  pt-5  flex-row text-lg justify-between ">
+            <div class="px-4 w-[100%] lg:w-[33.33%] py-5 ">
+                <p class="text-center">© 2023 RØDE All Rights Reserved.</p>
+            </div>
+            <div class="w-[100%] lg:w-[33.33%] py-5 text-center  order-last ">
+                <a class="text-center m-auto ">
+                    <span>Privacy Policy</span> <span class="px-2">|</span> <span>Terms & Conditions</span>
+                </a>
+            </div>    
+            
+            <div class="w-[100%] lg:w-[33.33%] py-5 text-center lg:order-last ">
+                <div class="text-white px-4 flex pb-4 justify-around lg:justify-between  w-[60%]  sp m-auto text-center text-xl ">
+                    <a href="#"
+                        class="w-9 h-8 text-black text-2xl hover:text-orange-500 inline-block rounded-full pt-[3px] hover:bg-gray-200 mx-2 "><i
+                            class="fa fa-twitter"></i></a>
+                            
+                    <a href="#"
+                        class="w-9 h-8 text-black text-2xl hover:text-orange-500 inline-block rounded-full pt-[3px] hover:bg-gray-200 mx-2 "><i
+                            class="fa fa-instagram"></i></a> <a href="#"
+                        class="w-9 h-8 text-black text-2xl hover:text-orange-500 inline-block rounded-full pt-[3px] hover:bg-gray-200 mx-2 "><i
+                            class="fa fa-facebook"></i></a> <a href="#"
+                        class="w-9 h-8 text-black text-2xl hover:text-orange-500 inline-block rounded-full pt-[3px] hover:bg-gray-200 mx-2 "><i
+                            class="fa fa-google"></i></a> 
+                    <a href="#"  class="w-9 h-8 text-black text-2xl hover:text-orange-500 inline-block rounded-full pt-[3px] hover:bg-gray-200 mx-2 "><i class="fa fa-linkedin"></i></a> 
+                    <a href="" class="mx-2 "> 
+                        <svg data-v-49b37e2d version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 219.5 75" xml:space="preserve" height="24px" class="rodexLogo">
+                            <g data-v-49b37e2d class="currentColor">
+                                <polygon data-v-49b37e2d points="190.7,37.5 162,75 136.4,75 165.2,37.5 136.4,0 162,0 190.7,37.5" class="fillColor1"></polygon>
+                                <polygon data-v-49b37e2d points="194.9,32.1 219.5,0 193.9,0 182.1,15.4 194.9,32.1" class="fillColor1"></polygon>
+                                <polygon data-v-49b37e2d points="182.1,59.6 193.9,75 219.5,75 194.9,42.9 182.1,59.6" class="fillColor1"></polygon>
+                                <path data-v-49b37e2d d="M62.4,32.8c0.2,1.8,0.3,3.5,0.3,4.7c0,4.5-0.8,14.9-8.3,14.9c-3.4,0-5.4-2.2-6.6-5L62.4,32.8L62.4,32.8z
+                                    M54.4,22.6c3.5,0,5.5,2.3,6.7,5.2L46.4,42.4c-0.3-1.9-0.3-3.6-0.3-4.9C46.1,33,46.9,22.6,54.4,22.6L54.4,22.6z M73.9,21.3
+                                    l-3.1-3.1L66.9,22c-3.4-2.7-7.7-4.3-12.5-4.3c-11.2,0-19.9,8.7-19.9,19.8c0,4.8,1.6,9.1,4.4,12.5L35,53.8l3.1,3.1l3.8-3.8
+                                    c3.4,2.6,7.6,4.1,12.4,4.1c11.2,0,19.9-8.7,19.9-19.8c0-4.7-1.6-9-4.3-12.4L73.9,21.3L73.9,21.3z M103,36.7c0,7-2.8,14.4-10.6,14.4
+                                    h-3.8V23.9H92C99.6,23.9,103,30.3,103,36.7L103,36.7z M94.5,18.7H77.8v37.5h18.3c11.2,0,18.5-7.1,18.5-18.1
+                                    C114.6,26.9,106.1,18.7,94.5,18.7L94.5,18.7z M142.6,50.3v6h-24.9V18.7h25v6h-13.7V34h12.3v6h-12.3v10.3H142.6L142.6,50.3z
+                                    M11.3,24.2h3.3c3.6,0,6.1,2.5,6.1,6.2c0,5.3-3,6.3-8.2,6.3h-1.2V24.2L11.3,24.2z M32.3,30.2c0-7.1-7-11.4-13.5-11.4H0v37.5h11.3
+                                    V38.1L20,56l0.1,0.3h12.8L24,40.5C29.2,39,32.3,35.1,32.3,30.2L32.3,30.2z" class="fillColor2"></path>
+                                
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> 
 </body>
 </html>
