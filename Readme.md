@@ -11,4 +11,4 @@ Here is the sample of desltop versipn
 ### Mobile sample 
 ![desktop sample](./IMG_92672ED7306E-1.jpeg)
 
-# to view this page please click [here](https://sanjayyadavsky.github.io/RODE_TAILWIND/)
+# to view this page please click [https://sanjayyadavsky.github.io/RODE_TAILWIND/)
