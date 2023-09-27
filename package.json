@@ -1,19 +1,13 @@
 {
   "name": "rode_tailwind",
   "version": "1.0.0",
-  "description": "git push to get green dot ",
+  "description": "This page is fully responsive",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "(https://github.com/sanjayyadavsky/RODE_TAILWIND)"
-  },
-  "keywords": [
-    "205708"
-  ],
-  "author": "Sanjay Yadav",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "jsonfile": "^6.1.0",
