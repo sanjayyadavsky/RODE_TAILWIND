@@ -4,13 +4,9 @@
   "description": "This page is fully responsive",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "jsonfile": "^6.1.0",
-    "moment": "^2.29.4"
-  }
+  "license": "ISC"
 }
