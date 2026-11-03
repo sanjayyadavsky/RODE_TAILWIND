@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -125,11 +125,20 @@
             </div>
             <!-- navbar -->
             <div class="flex h-full navbar hidden lg:flex" >
-                <a class="px-5 py-5 " href="">PRODUCT</a>
-                <a class="px-5 py-5 " href=""> USER GUIDES</a>
-                <a class="px-5 py-5 " href="">SOLUTION</a>
-                <a  class="px-5 py-5 " href="">APPAREL</a>
-                <a class="px-5 py-5 " href="">SUPPORT</a>
+                <a class="px-5 py-5 " href="#products">PRODUCT</a>
+                <a href="RODE_Product_User_Guide.pdf"
+                        download="RODE_Product_User_Guide.pdf"
+                        class="px-5 py-5 hover:text-gray-500">
+                            USER GUIDES
+                        </a>
+              <a class="px-5 py-5 " href="#solutions">SOLUTION</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Apparel_EMAIL@gmail.com&su=Sales%20Enquiry"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="flex items-center gap-3 hover:text-gray-500 my-4 text-black">
+    <span>APPAREL</span>
+</a>
+                <a class="px-5 py-5 " href="#support">SUPPORT</a>
             </div>
             <!-- search-icon -->
             <div  class=" my-auto">
@@ -142,7 +151,7 @@
     </header>
    </section>
    <!-- vido micro -->
-   <section class="md:bg-hero-Image bg-cover bg-center mt-3">
+   <section class="md:bg-hero-Image bg-cover bg-center mt-3" >
         <!-- hero image to show at large screen -->
         <div class="md:hidden">
             <img src="https://edge.rode.com/images/page/1/modules/7187/VideoMicroII_Homepage_Banner_800x700-01.png" alt="" class="align-middle">
@@ -325,12 +334,13 @@
             </div>
         </div>
     </section>
+        <div class="conatainer w-[80%] m-auto" id="products"></div>
     <!-- Explore The RØDE Range -->
-    <div>
+    <div  >
         <h2 class="text-[#767676] mt-10  text-center text-2xl font-semibold py-5">Explore The RØDE Range</h2>
     </div>
     <!-- other services link -->
-    <section class="pb-5 bolck">
+    <section class="pb-5 bolck" >
         <div class="conatainer w-[80%] m-auto">
            <a href="" class="mb-10 mt-10 block">
             <div class="bg-MICROPHONE bg-cover bg-center block">
@@ -374,15 +384,41 @@
                     <a href="#" class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Apparel</a>
 
                 </div>
-                <div class="items-center m-1 justify-start w-Available md:w-fit px-6">
+                <div class="items-center m-1 justify-start w-Available md:w-fit px-6" id="support">
                     <h1 class="flex  md:my-4 md:text-3xl text-xl text-black font-medium border-b-[1px] md:border-b-[0px] pb-3  lg:pb-4  border-[#484848]"> Support <i class="fa-regular fa-plus m-auto mr-0 h-full items-end md:hidden"></i>  </h1>
                     <!-- py-2  -->
                     <a href="#"
-                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Contact RØDE</a> <a href="#"
-                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Service Centre</a> <a href="#"
-                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Warranty</a> <a href="#"
-                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Where to Buy</a> <a href="#"
-                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Authorised Dealers</a>
+                        class="flex hover:text-gray-500 hidden md:flex my-4 text-black ">Contact RØDE</a>
+<!-- Technical Support -->
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=TECH_EMAIL@gmail.com&su=Technical%20Support%20Request"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="flex items-center gap-3 hover:text-gray-500 my-4 text-black">
+
+    <i class="fa-solid fa-headset text-lg"></i>
+    <span>Sanjay Yadav – Technical Support</span>
+</a>
+
+<!-- Sales Support -->
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=SALES_EMAIL@gmail.com&su=Sales%20Enquiry"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="flex items-center gap-3 hover:text-gray-500 my-4 text-black">
+
+    <i class="fa-solid fa-cart-shopping text-lg"></i>
+    <span>Fahad Ali – Sales Support</span>
+</a>
+
+<!-- Customer Support -->
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=CUSTOMER_EMAIL@gmail.com&su=Customer%20Support%20Request"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="flex items-center gap-3 hover:text-gray-500 my-4 text-black">
+
+    <i class="fa-solid fa-envelope text-lg"></i>
+    <span>Sami – Customer Support</span>
+</a>
+
                 </div>
                 <div class="items-center m-1 w-Available md:w-fit px-6">
                     <h1 class="flex  md:my-4 md:text-3xl text-xl text-black font-medium topshadow border-b-[1px] md:border-b-0 lg:pb-0 lg:mb-0 pt-3 border-[#484848]"> Company<i class="fa-regular fa-plus m-auto mr-0 h-full items-end md:hidden"></i> </h1>
@@ -426,11 +462,26 @@
         </div>
         <div class="flex flex-col lg:flex-row w-[90%] p-3  pt-5  flex-row text-lg justify-between ">
             <div class="px-4 w-[100%] lg:w-[33.33%] py-5 ">
-                <p class="text-center">© 2023 RØDE All Rights Reserved.</p>
+                <p class="text-center">© 2026 students prototype @ AIH</p>
+                <p class="text-center">Sanjay Yadav-237421</p>
+                <p class="text-center">Fahad Ali-237422</p>
+
             </div>
             <div class="w-[100%] lg:w-[33.33%] py-5 text-center  order-last ">
                 <a class="text-center m-auto ">
-                    <span>Privacy Policy</span> <span class="px-2">|</span> <span>Terms & Conditions</span>
+                   
+<a href="#"
+   onclick="openPolicy('privacy'); return false;">
+  Privacy Policy
+</a>
+
+<span class="px-2">|</span>
+
+<a href="#"
+   onclick="openPolicy('terms'); return false;">
+  Terms & Conditions
+</a>
+
                 </a>
             </div>    
             
@@ -470,5 +521,58 @@
             </div>
         </div>
     </div> 
+
+<!-- PDF Popup -->
+<div id="policyPopup"
+     class="hidden fixed inset-0 z-50 bg-black/70
+            flex items-center justify-center p-4">
+
+  <div class="bg-white rounded-lg w-full max-w-4xl
+              h-[85vh] flex flex-col overflow-hidden">
+
+    <div class="flex justify-between items-center p-4 border-b">
+      <h2 id="policyTitle" class="text-xl font-bold">
+        Privacy Policy
+      </h2>
+
+      <button onclick="closePolicy()"
+              class="text-2xl font-bold"
+              aria-label="Close popup">
+        &times;
+      </button>
+    </div>
+
+    <iframe id="policyFrame"
+            title="Website policy PDF"
+            class="w-full flex-1 border-0">
+    </iframe>
+  </div>
+</div>
+
+<script>
+function openPolicy(type) {
+  const popup = document.getElementById("policyPopup");
+  const frame = document.getElementById("policyFrame");
+  const title = document.getElementById("policyTitle");
+
+  title.textContent = type === "privacy"
+    ? "Privacy Policy"
+    : "Terms & Conditions";
+
+  // Privacy begins on page 1; Terms begin on page 2.
+  frame.src = "privacy-terms.pdf#page=" +
+    (type === "privacy" ? "1" : "2");
+
+  popup.classList.remove("hidden");
+}
+
+function closePolicy() {
+  document.getElementById("policyPopup")
+    .classList.add("hidden");
+
+  document.getElementById("policyFrame").src = "";
+}
+</script>
+
 </body>
 </html>
